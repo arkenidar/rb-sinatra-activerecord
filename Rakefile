@@ -1,4 +1,5 @@
 # Rakefile
 
-require './app'
+#bundle exec rake ...
+require 'sinatra/activerecord'
 require 'sinatra/activerecord/rake'
