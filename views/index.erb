@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users</title>
+</head>
+<body>
+    <ul>
+        <% @users.each do |user| %>
+            <li><%= user.fname %> <%= user.email %></li>
+        <% end %>
+    </ul>
+</body>
+</html>
+
