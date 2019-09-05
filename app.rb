@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # app.rb
 require 'sinatra'
 require 'active_record'
