@@ -4,7 +4,11 @@ require 'sinatra'
 require 'active_record'
 require 'sinatra/activerecord'
 
+#gem 'sinatra-reloader'
 require 'sinatra/reloader'
+configure :production do
+enable :reloader
+end
 
 # at the bottom of app.rb
 require './models'
