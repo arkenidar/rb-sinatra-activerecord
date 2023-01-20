@@ -8,7 +8,7 @@ gem 'sinatra'
 gem 'sinatra-reloader'
 
 #require 'active_record'
-gem 'activerecord', '~> 5.0'
+gem 'activerecord', '~> 6.1'
 
 #require 'sinatra/activerecord'
 gem 'sinatra-activerecord'
